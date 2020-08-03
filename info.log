@@ -1,0 +1,22 @@
+{"message":"Unauthorized request to path: /folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"foldersService is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"FoldersService.getAllfolders is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"select * from \"notes\" inner join \"folders\" on \"folders\".\"id\" = \"notes\".\"folderId\" - column notes.folderId does not exist","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/11","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/11","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/7","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}

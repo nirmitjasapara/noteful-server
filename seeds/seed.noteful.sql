@@ -3,7 +3,7 @@ values
   ('Important'),
   ('Super'),
   ('Spangley');
-insert into notes (name, modified, content, folderId)
+insert into notes (name, modified, content, folder_id)
 values
   ('name1', now(), 'content1', 1),
   ('name2', now(), 'content2', 1),
