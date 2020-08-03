@@ -15,11 +15,15 @@ foldersRouter
   .route('/')
   .get((req, res, next) => {
     const knexInstance = req.app.get('db')
+    console.log ("I'm inside the route!")
     FoldersService.getAllFolders(knexInstance)
       .then(folders => {
         res.json(folders.map(serializeFolder))
       })
-      .catch(next)
+      .catch((error) => {
+        console.error(error);
+        next();
+      })
   })
   .post(jsonParser, (req, res, next) => {
     const {name} = req.body
